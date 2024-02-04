@@ -9,7 +9,7 @@ function fetchCovidData() {
         displayCovidData(data);
     })
     .catch(error => {
-        console.error('Došlo je do greške prilikom dohvatanja podataka', error);
+        console.error('Došlo je do greške prilikom učitavanja podataka', error);
     });
 }
 
