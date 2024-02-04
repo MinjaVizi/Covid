@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c5e0ff;
+    line-height: 1.6;
+    color: #333;
+    padding-bottom: 60px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.headerr {
+    background-color: #002a72;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.headerr .navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.headerr .navbar li {
+    margin: 0 20px;
+}
+
+.headerr .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.headerr .navbar li a:hover {
+    color: #a7a7a7;
+}
+
+.Footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    background-color: #002461;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.kontakt-forma {
+
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.kontaktirajte-me {
+margin-top: 35px;
+margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #002a72;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #002a72;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #001c5a;
+}
+
+@media (max-width: 768px) {
+    .headerr .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .headerr .navbar li {
+        margin: 5px 0;
+    }
+}
+
+.content {
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+.content h1 {
+    color: #333;
+    margin-bottom: 50px; 
+}
+
+.link-container {
+    box-shadow: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px; 
+    text-decoration: none;
+    color: #333;
+    background: #f8f8f8; 
+    padding: 20px;
+    border-radius: 10px; 
+    width: 300px; 
+    height: 250px; 
+    overflow: hidden; 
+    background: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+
+
+.link-box:hover {
+    background: #b5b2b2;
+    color: #002a72;
+
+
+    }
+
+
+.link-box span {
+    text-align: center;
+}
+
+.tekst {
+    margin-left: 30px;
+}
+
+.tekst1 {
+    margin-left: 60px;
+}
+
+.tekst2 {
+    margin-left: 40px;
+}
+
+

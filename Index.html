@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Početna stranica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="headerr">
+        <div class="container">
+            <div class="row">
+                <div class="column column-50">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-toggler" id="navbarToggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navbar" id="navbarList">
+                            <li><a href="./index.html">Početna stranica</a></li>
+                            <li><a href="stranice/MerePredostroznosti.html">Mere predostrožnosti</a></li>
+                            <li><a href="stranice/Kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="covid-data">
+    </div>
+    <footer class="Footer">
+        <div class="container">
+            <p>&copy; 2024 Sva prava zadržana.</p>
+        </div>
+    </footer>
+    <script src="./stranice/script.js"></script>
+    <script>
+        const navbarToggler = document.getElementById("navbarToggler");
+        const navbarList = document.getElementById("navbarList");
+        
+        navbarToggler.addEventListener("click", () => {
+            navbarList.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
