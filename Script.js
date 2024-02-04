@@ -1,15 +1,17 @@
+// script.js
+
 document.addEventListener('DOMContentLoaded', function() {
     fetchCovidData();
 });
 
 function fetchCovidData() {
-    fetch('https://disease.sh/v3/covid-19/all')
+    fetch('https://disease.sh/v3/covid-19/countries/RS')
     .then(response => response.json())
     .then(data => {
         displayCovidData(data);
     })
     .catch(error => {
-        console.error('Došlo je do greške prilikom učitavanja podataka', error);
+        console.error('Došlo je do greške prilikom dohvatanja podataka', error);
     });
 }
 
